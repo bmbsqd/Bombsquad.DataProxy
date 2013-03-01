@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bombsquad.DataProxy.Tests", "Bombsquad.DataProxy.Tests\Bombsquad.DataProxy.Tests.csproj", "{41A25869-BE13-452B-8D41-00E3C8FEC8A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bombsquad.DataProxy2", "Bombsquad.DataProxy2\Bombsquad.DataProxy2.csproj", "{651AE7D2-6D90-4A1F-9625-0F630C349067}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41A25869-BE13-452B-8D41-00E3C8FEC8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A25869-BE13-452B-8D41-00E3C8FEC8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A25869-BE13-452B-8D41-00E3C8FEC8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A25869-BE13-452B-8D41-00E3C8FEC8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651AE7D2-6D90-4A1F-9625-0F630C349067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651AE7D2-6D90-4A1F-9625-0F630C349067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651AE7D2-6D90-4A1F-9625-0F630C349067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651AE7D2-6D90-4A1F-9625-0F630C349067}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
