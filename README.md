@@ -27,7 +27,7 @@ public interface IUser
 
 public class Demo
 {
-  public void Run()
+  public async Task Run()
   {
     var connectionFactory = new ConnectionFactory( ConfigurationManager.ConnectionStrings["myConnectionString"] );
     var proxyFactory = new DataMapperProxyClassFactory( connectionFactory, new DataProxyConfiguration() );
