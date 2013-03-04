@@ -1,5 +1,5 @@
 using System;
-using Bombsquad.DataProxy2.CommandInformation;
+using Bombsquad.DataProxy.CommandInformation;
 
 namespace Bombsquad.DataProxy.Tests
 {

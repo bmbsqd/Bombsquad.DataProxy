@@ -1,5 +1,4 @@
 using System.Data.SqlClient;
-using Bombsquad.DataProxy2;
 
 namespace Bombsquad.DataProxy.Tests
 {

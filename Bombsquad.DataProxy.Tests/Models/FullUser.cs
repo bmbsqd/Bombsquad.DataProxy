@@ -1,4 +1,4 @@
-using Bombsquad.DataProxy2.DataReaderAdaptors;
+using Bombsquad.DataProxy.DataReaderAdaptors;
 
 namespace Bombsquad.DataProxy.Tests.Models
 {

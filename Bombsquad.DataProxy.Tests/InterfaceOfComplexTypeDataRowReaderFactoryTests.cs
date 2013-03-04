@@ -1,7 +1,6 @@
 using System;
+using Bombsquad.DataProxy.DataRowReaders;
 using Bombsquad.DataProxy.Tests.Models;
-using Bombsquad.DataProxy2;
-using Bombsquad.DataProxy2.DataRowReaders;
 using NUnit.Framework;
 
 namespace Bombsquad.DataProxy.Tests

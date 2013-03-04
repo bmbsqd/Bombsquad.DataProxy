@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Bombsquad.DataProxy</id>
+    <version>1.0</version>
+    <authors>Henrik Jönsson</authors>
+    <owners>Bombsquad AB</owners>
+    <projectUrl>https://github.com/henkish/Bombsquad.DataProxy</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ORM for SQL Server, with support for table valued parameters, multiple resultsets, etc. Full async support!</description>
+    <tags>sql orm async</tags>
+  </metadata>
+</package>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bombsquad.DataProxy.Tests", "Bombsquad.DataProxy.Tests\Bombsquad.DataProxy.Tests.csproj", "{41A25869-BE13-452B-8D41-00E3C8FEC8A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bombsquad.DataProxy2", "Bombsquad.DataProxy2\Bombsquad.DataProxy2.csproj", "{651AE7D2-6D90-4A1F-9625-0F630C349067}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bombsquad.DataProxy", "Bombsquad.DataProxy\Bombsquad.DataProxy.csproj", "{651AE7D2-6D90-4A1F-9625-0F630C349067}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

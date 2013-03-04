@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
+using Bombsquad.DataProxy.Async;
+using Bombsquad.DataProxy.CommandInformation;
 using Bombsquad.DataProxy.Tests.Models;
-using Bombsquad.DataProxy2.Async;
-using Bombsquad.DataProxy2.CommandInformation;
 
 namespace Bombsquad.DataProxy.Tests
 {

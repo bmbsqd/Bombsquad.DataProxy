@@ -77,9 +77,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Bombsquad.DataProxy2\Bombsquad.DataProxy2.csproj">
+    <ProjectReference Include="..\Bombsquad.DataProxy\Bombsquad.DataProxy.csproj">
       <Project>{651AE7D2-6D90-4A1F-9625-0F630C349067}</Project>
-      <Name>Bombsquad.DataProxy2</Name>
+      <Name>Bombsquad.DataProxy</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

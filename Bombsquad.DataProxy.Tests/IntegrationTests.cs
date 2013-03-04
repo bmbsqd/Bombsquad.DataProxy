@@ -2,7 +2,6 @@
 using System.Data;
 using System.Data.SqlTypes;
 using Bombsquad.DataProxy.Tests.Models;
-using Bombsquad.DataProxy2;
 using NUnit.Framework;
 
 namespace Bombsquad.DataProxy.Tests
