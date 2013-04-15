@@ -31,6 +31,7 @@ namespace Bombsquad.DataProxy
 			DataReaderAdaptorFactory = new CompositeDataReaderAdaptorFactory(
 				new SimpleTypeDataReaderAdaptorFactory(),
 				new AsyncEnumerableDataReaderAdaptorFactory(),
+				new ListTypesDataReaderAdaptorFactory(),
 				new ArrayDataReaderAdaptorFactory(),
 				new EnumerableDataReaderAdaptorFactory(),
 				new MultipleResultsetDataReaderAdaptorFactory(),

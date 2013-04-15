@@ -44,6 +44,7 @@
     <Compile Include="CommandInformation\CompositeCommandInformationProvider.cs" />
     <Compile Include="CommandInformation\ICommandInformation.cs" />
     <Compile Include="CommandInformation\IgnoredParameterAttribute.cs" />
+    <Compile Include="DataReaderAdaptors\ListTypesDataReaderAdaptorFactory.cs" />
     <Compile Include="DataReaderAdaptors\MultipleResultsetContainerAttribute.cs" />
     <Compile Include="DataReaderAdaptors\MultipleResultsetDataReaderAdaptorFactory.cs" />
     <Compile Include="DataRowReaders\InterfaceOfComplexTypeDataRowReaderFactory.cs" />

@@ -3,6 +3,7 @@ using System.Data;
 using System.Data.SqlTypes;
 using Bombsquad.DataProxy.Tests.Models;
 using NUnit.Framework;
+using System.Linq;
 
 namespace Bombsquad.DataProxy.Tests
 {
@@ -192,6 +193,39 @@ namespace Bombsquad.DataProxy.Tests
 			Assert.That( users.Length, Is.EqualTo( 2 ) );
 			TestHelpers.AssertThatUserIsRolfGöranBengtsson( users[ 0 ] );
 			TestHelpers.AssertThatUserIsNilsPetterSundgren( users[ 1 ] );
+		}
+
+		[Test]
+		public void UsersCanBeListedAsReadOnlyCollection()
+		{
+			var userMapper = m_proxyFactory.GetOrCreate<IUserMapper>();
+			var users = userMapper.ListUsersAsReadOnlyCollection();
+
+			Assert.That( users.Count, Is.EqualTo( 2 ) );
+			TestHelpers.AssertThatUserIsRolfGöranBengtsson( users.First() );
+			TestHelpers.AssertThatUserIsNilsPetterSundgren( users.Skip( 1 ).First() );
+		}
+
+		[Test]
+		public void UsersCanBeListedAsListInterface()
+		{
+			var userMapper = m_proxyFactory.GetOrCreate<IUserMapper>();
+			var users = userMapper.ListUsersAsListInterface();
+
+			Assert.That( users.Count, Is.EqualTo( 2 ) );
+			TestHelpers.AssertThatUserIsRolfGöranBengtsson( users.First() );
+			TestHelpers.AssertThatUserIsNilsPetterSundgren( users.Skip( 1 ).First() );
+		}
+
+		[Test]
+		public void UsersCanBeListedAsCollectionInterface()
+		{
+			var userMapper = m_proxyFactory.GetOrCreate<IUserMapper>();
+			var users = userMapper.ListUsersAsCollectionInterface();
+
+			Assert.That( users.Count, Is.EqualTo( 2 ) );
+			TestHelpers.AssertThatUserIsRolfGöranBengtsson( users.First() );
+			TestHelpers.AssertThatUserIsNilsPetterSundgren( users.Skip( 1 ).First() );
 		}
 
 		[Test]

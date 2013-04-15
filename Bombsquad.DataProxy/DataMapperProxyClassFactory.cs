@@ -121,6 +121,11 @@ namespace Bombsquad.DataProxy
 			blockExpressions.AddRange( postBlockExpressions );
 			blockExpressions.Add( resultParameter );
 
+			if( interfaceMethod.ReturnType == typeof(void) )
+			{
+				blockExpressions.Add( Expression.Empty() );
+			}
+
 			var lambda = Expression.Lambda( Expression.Block( blockParameterExpressions, blockExpressions ), parametersAsExpressions );
 			lambda.CompileToMethod( methodBuilder );
 

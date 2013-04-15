@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Bombsquad.DataProxy.Async;
 using Bombsquad.DataProxy.CommandInformation;
@@ -22,6 +23,15 @@ namespace Bombsquad.DataProxy.Tests
 
 		[Query( "UsersList" )]
 		User[] ListUsers();
+
+		[Query( "UsersList" )]
+		IReadOnlyCollection<User> ListUsersAsReadOnlyCollection();
+
+		[Query( "UsersList" )]
+		IList<User> ListUsersAsListInterface();
+
+		[Query( "UsersList" )]
+		ICollection<User> ListUsersAsCollectionInterface();
 
 		[Query( "UsersList" )]
 		IUser[] ListUsersAsInterface();

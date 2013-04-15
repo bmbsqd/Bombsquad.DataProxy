@@ -20,7 +20,7 @@ namespace Bombsquad.DataProxy.DataReaderAdaptors
 			return false;
 		}
 
-		protected abstract bool TryGetElementType(  Type type, out Type elementType );
+		protected abstract bool TryGetElementType( Type type, out Type elementType );
 		protected abstract IDataReaderAdaptor<T> CreateDataReaderAdaptor<T, TElement>(IDataProxyContext context) where T : IEnumerable<TElement>;
 
 	}
